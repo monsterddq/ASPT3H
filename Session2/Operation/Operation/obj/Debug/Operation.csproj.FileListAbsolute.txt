@@ -1,0 +1,6 @@
+E:\ASP_DoanQuocThai\Session2\Operation\Operation\bin\Debug\Operation.exe.config
+E:\ASP_DoanQuocThai\Session2\Operation\Operation\bin\Debug\Operation.exe
+E:\ASP_DoanQuocThai\Session2\Operation\Operation\bin\Debug\Operation.pdb
+E:\ASP_DoanQuocThai\Session2\Operation\Operation\obj\Debug\Operation.csprojResolveAssemblyReference.cache
+E:\ASP_DoanQuocThai\Session2\Operation\Operation\obj\Debug\Operation.exe
+E:\ASP_DoanQuocThai\Session2\Operation\Operation\obj\Debug\Operation.pdb

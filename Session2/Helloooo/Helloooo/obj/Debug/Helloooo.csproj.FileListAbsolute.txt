@@ -1,0 +1,6 @@
+E:\ASP_DoanQuocThai\Session2\Helloooo\Helloooo\bin\Debug\Helloooo.exe.config
+E:\ASP_DoanQuocThai\Session2\Helloooo\Helloooo\bin\Debug\Helloooo.exe
+E:\ASP_DoanQuocThai\Session2\Helloooo\Helloooo\bin\Debug\Helloooo.pdb
+E:\ASP_DoanQuocThai\Session2\Helloooo\Helloooo\obj\Debug\Helloooo.csprojResolveAssemblyReference.cache
+E:\ASP_DoanQuocThai\Session2\Helloooo\Helloooo\obj\Debug\Helloooo.exe
+E:\ASP_DoanQuocThai\Session2\Helloooo\Helloooo\obj\Debug\Helloooo.pdb
