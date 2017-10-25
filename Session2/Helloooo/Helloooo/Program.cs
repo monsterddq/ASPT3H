@@ -45,11 +45,14 @@ namespace Helloooo
                     case 5:
                         string checka = KiemTraSoNguyenTo(a) ? "la so nguyen to" : "khong la so nguyen to";
                         Console.WriteLine(String.Format("{0} {1}", a, checka));
-                        checka = KiemTraSoNguyenTo(a) ? "la so nguyen to" : "khong la so nguyen to";
+                        checka = KiemTraSoNguyenTo(b) ? "la so nguyen to" : "khong la so nguyen to";
                         Console.WriteLine(String.Format("{0} {1}", b, checka));
                         break;
                     case 6:
-                        Environment.Exit(0);
+                        Console.WriteLine("Ban co muon thoat khong(Y/N)");
+                        string option = Console.ReadLine();
+                        if (option.Equals("Y") || option.Equals("y"))
+                            Environment.Exit(0);
                         break;
                     default:
                         Console.WriteLine("Nhap sai menu vui long nhap lai");
