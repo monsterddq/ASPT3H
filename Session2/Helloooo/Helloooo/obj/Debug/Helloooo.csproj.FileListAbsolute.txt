@@ -4,3 +4,10 @@ E:\ASP_DoanQuocThai\Session2\Helloooo\Helloooo\bin\Debug\Helloooo.pdb
 E:\ASP_DoanQuocThai\Session2\Helloooo\Helloooo\obj\Debug\Helloooo.csprojResolveAssemblyReference.cache
 E:\ASP_DoanQuocThai\Session2\Helloooo\Helloooo\obj\Debug\Helloooo.exe
 E:\ASP_DoanQuocThai\Session2\Helloooo\Helloooo\obj\Debug\Helloooo.pdb
+E:\C#-ASP.NET\T3H\Session2\Helloooo\Helloooo\bin\Debug\Helloooo.exe.config
+E:\C#-ASP.NET\T3H\Session2\Helloooo\Helloooo\bin\Debug\Helloooo.exe
+E:\C#-ASP.NET\T3H\Session2\Helloooo\Helloooo\bin\Debug\Helloooo.pdb
+E:\C#-ASP.NET\T3H\Session2\Helloooo\Helloooo\obj\Debug\Helloooo.csprojResolveAssemblyReference.cache
+E:\C#-ASP.NET\T3H\Session2\Helloooo\Helloooo\obj\Debug\Helloooo.csproj.CoreCompileInputs.cache
+E:\C#-ASP.NET\T3H\Session2\Helloooo\Helloooo\obj\Debug\Helloooo.exe
+E:\C#-ASP.NET\T3H\Session2\Helloooo\Helloooo\obj\Debug\Helloooo.pdb

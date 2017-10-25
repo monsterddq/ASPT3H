@@ -10,7 +10,7 @@ namespace Helloooo
     {
         static void Main(string[] args)
         {
-            int a=0, b=0, menu;
+            int a=0, b=0, menu=0;
             while (true)
             {
                 Console.WriteLine("Menu:");
@@ -20,7 +20,7 @@ namespace Helloooo
                 Console.WriteLine("4.Tinh tich 2 so a,b");
                 Console.WriteLine("5.Kiem tra 2 so a,b co phai 2 so nguyen to hay khong.");
                 Console.Write("Nhap menu: ");
-         
+
                 menu = Convert.ToInt32(Console.ReadLine());
                 switch (menu)
                 {
