@@ -1,0 +1,5 @@
+1.Tao class Peopel voi 1 so truong tuy ty
+2.Tao interface dinh ngia method cua Peopel
+3.Tao class Student va Employee ke thua tu Pelpel va 
+interface da tao
+4.Khoi tao chay thu chuong trinh cho cac class.
