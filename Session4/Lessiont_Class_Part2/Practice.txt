@@ -36,7 +36,7 @@ Rất vui được gặp bạn. Hãy gọi cho tôi theo số này {Phone}.";
 "Tôi đang làm ở công ty {CompanyName}, công ty tôi là 1 công ty {Jobs}. Nếu bạn có việc gì mà công ty tôi
 có thể làm vui lòng liên hệ qua email sau: {CompanyEmail}".
 
-4. Viết 1 Interface: IPersion định nghĩa 2 method
+4. Viết 1 Interface: IPerson định nghĩa 2 method
 	- DiemTrungBinh(Student std): Truyền vào tham số là 1 đối tượng Student trả về điểm trung bình của đối tượng đó
 	- TinhTienLuong(Employee em, int month): Truyền vào 2 tham số là đối tượng Employee và số tháng (phải lớn hơn 1)
 				trả về số tiền lương nhân viên này kiếm được trong month tháng.
