@@ -26,7 +26,7 @@ Rất vui được gặp bạn. Hãy gọi cho tôi theo số này {Phone}.";
 - Class có 2 constructor có tham số và không có tham số
 - Class Student kế thừa từ class Person, override hàm Print nhưng ghi thêm
 đoạn sau : "Tôi đang là học sinh tại trường {School} , hiện tại tôi ở lớp {Grade}{Classes} ";
-3. Viết class Employee: kế thừa từ class Employee
+3. Viết class Employee: kế thừa từ class Person
 	CompanyName: string
 	CompanyEmail: string
 	Jobs: string

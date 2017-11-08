@@ -15,7 +15,9 @@ namespace Pratice2_Prat2_Inhertance_Polymophism
 
         public float TinhTienLuong(Employee emp, int month)
         {
-            
+            if (month < 1) return 0;
+            int monthReal = month + (int)(month/12);
+            return emp.Salary * monthReal;
         }
     }
 }

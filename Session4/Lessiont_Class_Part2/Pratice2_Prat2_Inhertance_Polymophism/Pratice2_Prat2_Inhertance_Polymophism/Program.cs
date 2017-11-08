@@ -19,9 +19,15 @@ namespace Pratice2_Prat2_Inhertance_Polymophism
             std.setClasses = "A1";
             std.setSchool = "Le Hong Phong";
             std.setMark1 = 10;
-            std.setMark1 = 9;
-            std.setMark1 = 8;
+            std.setMark2 = 9;
+            std.setMark3 = 8;
             Console.WriteLine(std.Print());
+
+            Employee em = new Employee("T3H", "th3@gmail.com", "IT", 5000);
+            IPerson p = new PersonImp();
+            PersonImp pimp = new PersonImp();
+            Console.WriteLine(p.DiemTrungBinh(std));
+            Console.WriteLine(p.TinhTienLuong(em,12));
             Console.ReadLine();
         }
     }
