@@ -1,0 +1,29 @@
+Tao 1 class Student:
+	StudentId int
+	StudentName string
+	StudentPhone string
+Tao 1 class Log:
+	LogId int
+	LogName string
+Tao 1 class StudentLog
+	StudentId int
+	LogId int
+	Time DateTime
+Tao 1 class static Utility
+        listStudent List<Student>
+	listLog List<Log>
+Note: Tao Class phai co get,set , contructor khong tham so vaf contructor co tham so
+	override method ToString cua class tra ve du lieu cac truong cua class do.
+// Tao class la yeu cau bat buoc.
+1.Viet 1 interface ICommonObject<T,K> kieu generic
+	List<T> GetAll();
+	void AddNew<T>(T obj);
+	void Modify<T>(T obj);
+	void Delete<T>(K s);
+
+2.Viet 1 abstract class AbstractCommon<T,K> ke thua tu interface ICommonObject<T,K>
+	viet cac abstract method ke thua tu interface
+3.Viet class StudentService ke thua tu AbstractCommon<Student,int> 
+	viet cac method, xu ly cac hanh dong them sua xoa cho method voi kieu du lieu student
+4.Viet class LogService ke thua tu AbstractCommon<Log,int>
+	viet cac method tuong tu tu StudentService nhung xu ly voi Log
