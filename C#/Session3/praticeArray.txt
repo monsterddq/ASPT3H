@@ -1,0 +1,17 @@
+Menu: 
+1.Nhap mang 1 chieu a
+2.Nhap mang 2 chieu b
+3. In ra man hinh 2 mang a va b
+4.Tim so lon nhat trong mang a va mang b
+5.Tim so nho nhat trong mang a va b
+6.Sua doi gia tri 1 phan tu trong mang a hoac b
+7.Tinh tong 2 mang a va b
+8.Dem so phan tu chan va le trong 2 mang.
+9.Thoat chuong trinh.
+Nhap Menu: 
+
+- Kiem tra cac gia tri khong hop le
+- 2 mang a va b la mang int
+- Truoc khi thoat chuong trinh can hoi xem nguoi dung co muon thoat hay khong.
+
+aa

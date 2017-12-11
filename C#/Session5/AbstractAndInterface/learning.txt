@@ -1,0 +1,36 @@
+Tao class Abstract Learning
+	content string
+Tao class Question: Learning
+	question_code string
+	content string
+	type int
+	level int
+Tao class Answer: Learning
+	answer_code string 
+	content string
+Tao class Result_Answer
+	question_code string
+	correct_answer string[]
+	incorrect_anser string[]
+
+
+Tao class static Utility gom 3 List:
+	- static List<Question> 
+	- static List<Answer>
+	- static List<Result_Answer>
+=> Luu gia tri du lieu vao trong nay.
+
+Viet Interface IQuestion
+	- getAll() tra ve list question trong Utility
+	- find(string question_code) tra ve question co chua question_code truyen vao
+	- addQuestion(Question q) them question vao trong List
+	- modifile(Question q) sua question 
+	- remove(string question_code) xoa question
+Viet class Implement cua IQuestion thuc hien cac thao tac tren
+Viet Chuong trinh:
+1.Them question
+2.Lay danh sach question
+3.Tim question theo question_code
+4.Sua question
+5.Xoa question
+6.Thoat.

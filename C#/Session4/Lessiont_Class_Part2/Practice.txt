@@ -1,0 +1,46 @@
+﻿1.Tạo class Person:
+	Name: string
+	Age: int
+	Address: string
+	Phone: string
+- Class có 2 constructor có tham số và không có tham số
+- Tất cả các trường trên đều có access modifier là private
+- Viết get, set cho các trường trên. Các get,set đều có quyền 
+truy cập public
+- Viết method cho class Person:
+	Print: trả về string dưới dạng sau:
+		"Xin chào, Tôi tên là {Name},năm nay tôi {Age} tuổi.
+Rất vui được gặp bạn. Hãy gọi cho tôi theo số này {Phone}.";
+	GetAgeAtYear: 
+		+) Truyền vào 1 tham số kiểu int là số năm,
+		+) Trả về giá trị là số tuổi trong năm đó.
+		+) Thông báo nếu tính ra số tuổi là âm: Lúc đó bạn chưa sinh ra.
+		+) Thông báo nếu tính ra số tuổi là 0: Lúc đó bạn đang ở trong bụng mẹ.
+2. Viết class Student: kế thừa từ class Person
+	Grade: int (cấp)
+	Classes: string (lớp)
+	School: string
+	Mark1: int
+	Mark2: int
+	Mark3: int
+- Class có 2 constructor có tham số và không có tham số
+- Class Student kế thừa từ class Person, override hàm Print nhưng ghi thêm
+đoạn sau : "Tôi đang là học sinh tại trường {School} , hiện tại tôi ở lớp {Grade}{Classes} ";
+3. Viết class Employee: kế thừa từ class Person
+	CompanyName: string
+	CompanyEmail: string
+	Jobs: string
+	Salary: int
+- Class có 2 constructor có tham số và không có tham số
+- Class Employee kế thừa từ class Person, override hàm Print nhưng ghi thêm nội dung sau:
+"Tôi đang làm ở công ty {CompanyName}, công ty tôi là 1 công ty {Jobs}. Nếu bạn có việc gì mà công ty tôi
+có thể làm vui lòng liên hệ qua email sau: {CompanyEmail}".
+
+4. Viết 1 Interface: IPerson định nghĩa 2 method
+	- DiemTrungBinh(Student std): Truyền vào tham số là 1 đối tượng Student trả về điểm trung bình của đối tượng đó
+	- TinhTienLuong(Employee em, int month): Truyền vào 2 tham số là đối tượng Employee và số tháng (phải lớn hơn 1)
+				trả về số tiền lương nhân viên này kiếm được trong month tháng.
+				Biết công ty nhân viên này có nhận lương tháng 13.
+	
+	
+				
